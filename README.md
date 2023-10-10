@@ -78,7 +78,7 @@ npm run build
 ```
 after executing the command, the build folder will appear, its contents need to be transferred to web hosting
 
-###Done
+### Done
 
 
 
