@@ -17,7 +17,7 @@ const SeatButton = (props) => {
                 ?  classes.busy
                 : classes.ghost;
 
-    const [notificationOccurred] = useHapticFeedback();
+    const [,notificationOccurred] = useHapticFeedback();
 
     return (
         <button
