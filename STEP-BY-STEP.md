@@ -1,4 +1,4 @@
-![image](https://github.com/shurma1/MovieWebApp/assets/69749761/6fea530c-3c2a-4493-a9f1-9f4c5b685505)# Mini-app for booking movies step-by-step tutorial (REACT + NODEJS)
+# Mini-app for booking movies step-by-step tutorial (REACT + NODEJS)
 
 ## Get telegram API token
 First, we need to get an API token for the telegram bot, through which our web application will be launched. this can be done as follows:
