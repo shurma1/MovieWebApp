@@ -2,7 +2,8 @@
 
 ## Description
 
-
+## Demo
+<img src="demo.gif" alt="Demo video" width="50%">
 
 ## Stack
 
