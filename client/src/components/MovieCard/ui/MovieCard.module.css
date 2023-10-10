@@ -1,0 +1,34 @@
+.MovieCard{
+    position: relative;
+    margin: var(--margin-xl) 0;
+}
+
+.MovieCardWrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: var(--padding-s);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.InfoWrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+}
+

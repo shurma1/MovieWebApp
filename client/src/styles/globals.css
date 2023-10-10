@@ -1,0 +1,34 @@
+:root{
+    --radius-xs: 4px;
+    --radius-s: 12px;
+    --radius-m: 17px;
+    --radius-xl: 30px;
+
+    --button-height: 33px;
+
+
+    --font-size-s: .8rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2.3rem;
+
+    --margin-s: 5px;
+    --margin-m: 8px;
+    --margin-xl: 20px;
+
+    --padding-s: 9px;
+    --padding-m: 25px;
+    --padding-g: 20px;
+
+    --card-height: 40vw;
+
+}
+
+@media screen and (min-width: 400px) {
+    :root{
+        --padding-s: 20px;
+        --font-size-m: 1.2rem;
+        --font-size-s: .9rem;
+        --margin-s: 2px;
+    }
+}

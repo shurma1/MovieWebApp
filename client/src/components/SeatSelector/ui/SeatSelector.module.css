@@ -1,0 +1,7 @@
+.SeatSelector{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(7,1fr);
+    rid-gap: 5px;
+    gap: 5px;
+}

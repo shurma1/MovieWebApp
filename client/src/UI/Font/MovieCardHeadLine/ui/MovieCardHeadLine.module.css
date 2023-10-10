@@ -1,0 +1,9 @@
+.MovieCardHeadLine{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: var(--font-size-m);
+    margin: var(--margin-s) 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

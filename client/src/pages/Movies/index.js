@@ -1,0 +1,1 @@
+export {MoviesAsync as Movies} from './ui/Movies.async';

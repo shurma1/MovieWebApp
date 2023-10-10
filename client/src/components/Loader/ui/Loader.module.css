@@ -1,0 +1,32 @@
+
+
+.LoaderWrapper{
+    width: 100%;
+    height: var(--tg-viewport-height);
+    background-color: var(--tg-theme-secondary-bg-color);
+    transition: height .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loader{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.Loader svg{
+    width: 150%;
+    animation: Loader 1s linear infinite;
+    fill: var(--tg-theme-button-color);
+}
+
+@keyframes Loader {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-33.3%);
+    }
+}

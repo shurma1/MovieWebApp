@@ -1,0 +1,33 @@
+.SeatButton{
+    aspect-ratio: 1/1;
+    background-color: var(--tg-theme-bg-color);
+    border-radius: var(--radius-s);
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.SeatButton p{
+    padding: 0;
+    margin: 0;
+}
+
+.SeatButton:not(.busy):active{
+    transform: scale(.95);
+}
+
+.free{
+
+}
+
+.busy{
+    background-color: #ffffff00;
+    border: 3px solid var(--tg-theme-bg-color);
+}
+
+.ghost{
+    visibility: hidden;
+}
+.active{
+    background-color: var(--tg-theme-button-color);
+}
+

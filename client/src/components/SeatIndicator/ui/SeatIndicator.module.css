@@ -1,0 +1,29 @@
+
+.IndicatorList{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: var(--tg-theme-text-color);
+    gap: var(--margin-xl);
+    padding: var(--padding-s) 0;
+}
+
+.IndicatorWrapper{
+    display: flex;
+    align-items: center;
+    gap: var(--margin-m);
+}
+
+.Indicator{
+    width: 20px;
+    height: 20px;
+    border-radius: var(--radius-xs);
+}
+
+.Busy{
+    outline: 2px solid var(--tg-theme-bg-color);
+}
+
+.Free{
+    background: var(--tg-theme-bg-color);
+}

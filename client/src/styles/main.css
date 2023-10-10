@@ -1,0 +1,15 @@
+body{
+    background: var(--tg-theme-secondary-bg-color);
+}
+
+.App{
+    padding: var(--padding-g);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.ContentContainer{
+    max-width: 400px;
+    width: 100%;
+}

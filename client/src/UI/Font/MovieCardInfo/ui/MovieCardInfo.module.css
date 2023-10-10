@@ -1,0 +1,6 @@
+.MovieCardInfo{
+    color: #ffffff;
+    font-size: var(--font-size-s);
+    font-weight: 300;
+    margin: var(--margin-s) 0;
+}

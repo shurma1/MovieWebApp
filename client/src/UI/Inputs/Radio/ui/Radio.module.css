@@ -1,0 +1,25 @@
+.Container{
+    margin: 0 var(--margin-m);
+    display: inline-block;
+    font-weight: 500;
+}
+
+.Container input[type=radio] {
+    display: none;
+}
+
+.Container label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 var(--padding-s);
+    line-height: 30px;
+    background-color: var(--tg-theme-bg-color);
+    color: #ffffff;
+    border-radius: var(--radius-s);
+    user-select: none;
+}
+
+
+.Container input[type=radio]:checked + label {
+    background-color: var(--tg-theme-button-color);
+}

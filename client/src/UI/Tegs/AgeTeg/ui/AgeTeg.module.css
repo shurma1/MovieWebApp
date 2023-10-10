@@ -1,0 +1,12 @@
+.AgeTeg{
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    background-color: var(--tg-theme-button-color);
+    border-radius: var(--radius-s);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

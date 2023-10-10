@@ -1,0 +1,15 @@
+.MovieButton{
+    background-color: var(--tg-theme-button-color);
+    border-radius: var(--radius-m);
+    height: var(--button-height);
+    width: 100%;
+    color: #fff;
+    transition: transform, filter .3s ease;
+    font-weight: 600;
+    padding: 0 var(--padding-m);
+}
+
+.MovieButton:active{
+    transform: scale(.97);
+    filter: brightness(95%);
+}

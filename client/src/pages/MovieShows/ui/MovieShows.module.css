@@ -1,0 +1,8 @@
+.padding{
+    padding: var(--padding-s) 0;
+}
+
+.timeSelector{
+    display: flex;
+    justify-content: space-between;
+}
