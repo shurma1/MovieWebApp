@@ -1,3 +1,4 @@
+This project won the second prize 🥈 at [Telegram Mini App Contest](https://contest.com/mini-apps)
 # Mini-app for booking movies
 [@CineBookBot](https://t.me/CineBookBot) - Telegram mini app, which is a demo application that provides convenient and easy online cinema booking. It displays available cinema showings with times and remaining seats in the cinema.
 
